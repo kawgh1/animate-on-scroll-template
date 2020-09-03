@@ -6,7 +6,7 @@ Creative Tim template based project from Zero to Mastery
 ### notes
 
 #### third party javascript loading optimization
-developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript
 
 #### Animate On Scroll (AOS.js)
 https://michalsnik.github.io/aos/
