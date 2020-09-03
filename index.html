@@ -15,6 +15,12 @@
   <!-- Tailwind Library -->
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <!-- Animate On Scroll (AOS.js) -->
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script defer src="script.js"></script>
+  <!-- Navigation Script -->
+  <script defer src="navbar.js"></script>
+
 </head>
 
 <body class="text-gray-800 antialiased">
@@ -38,14 +44,13 @@
         </button>
       </div>
       <!-- Nav Right Side -->
-      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+      <ul class="flex flex-row lg:flex-row list-none lg:ml-auto">
         <!-- Social Media Button -->
         <li class="flex items-center">
           <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
             href="#pablo">
             <!-- Icon -->
             <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
-            <span class="lg:hidden inline-block ml-2">Share</span>
           </a>
         </li>
         <!-- Social Media Button -->
@@ -54,7 +59,6 @@
             href="#pablo">
             <!-- Icon -->
             <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
-            <span class="lg:hidden inline-block ml-2">Tweet</span>
           </a>
         </li>
         <!-- Social Media Button -->
@@ -63,7 +67,6 @@
             href="#pablo">
             <!-- Icon -->
             <i class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg "></i>
-            <span class="lg:hidden inline-block ml-2">Post</span>
           </a>
         </li>
         <!-- Social Media Button -->
@@ -72,7 +75,6 @@
             href="#pablo">
             <!-- Icon -->
             <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
-            <span class="lg:hidden inline-block ml-2">Star</span>
           </a>
         </li>
       </ul>
@@ -123,7 +125,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <!-- Card -->
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-delay="1200">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-delay="600">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div
@@ -141,7 +143,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-up" data-aos-delay="1200">
+          <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-up" data-aos-delay="600">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div
@@ -159,7 +161,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="1200">
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="600">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div
@@ -686,10 +688,6 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
-<!-- Animate On Scroll (AOS.js) -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="script.js"></script>
-<!-- Navigation Script -->
-<script src="navbar.js"></script>
+
 
 </html>
